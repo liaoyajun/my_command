@@ -4,9 +4,9 @@
   "description": "Mac中常用的一些指令，自定义一行指令代替多行指令。",
   "main": "index.js",
   "bin": {
-    "gitIgnoreUpdate": "gitIgnoreUpdate.js",
-    "pushDev": "pushDev.js",
-    "pushServer": "pushServer.js"
+    "updateGitIgnore": "updateGitIgnore.js",
+    "pushD": "pushDev.js",
+    "pushS": "pushServer.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

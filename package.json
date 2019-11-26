@@ -1,0 +1,26 @@
+{
+  "name": "mycommand",
+  "version": "1.0.0",
+  "description": "Mac中常用的一些指令，自定义一行指令代替多行指令。",
+  "main": "index.js",
+  "bin": {
+    "gitIgnoreUpdate": "gitIgnoreUpdate.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liaoyajun/myCommand.git"
+  },
+  "author": "leo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liaoyajun/myCommand/issues"
+  },
+  "homepage": "https://github.com/liaoyajun/myCommand#readme",
+  "dependencies": {
+    "shelljs": "^0.8.3",
+    "yargs": "^15.0.2"
+  }
+}

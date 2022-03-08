@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/liaoyajun/myCommand#readme",
   "dependencies": {
-    "shelljs": "^0.8.3",
+    "shelljs": "^0.8.4",
     "yargs": "^15.0.2"
   }
 }

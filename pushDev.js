@@ -3,7 +3,7 @@
 require('shelljs/global')
 const argv = require('yargs').argv;
 console.log(argv.m);
-exec('git pull origin master')
+exec('git pull origin main')
 exec('git add .')
 exec('git commit -m "' + argv.m + '"')
-exec('git push origin master')
+exec('git push origin main')

@@ -20,6 +20,7 @@
   pushD -m 'commit'
 
   # 等价于下面多行指令
+  git pull origin master
   git add .
   git commit -m "commit"
   git push origin master

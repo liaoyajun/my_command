@@ -15,4 +15,4 @@ setInterval(function() {
   exec('git commit -m "' + argv.m + '"')
   exec('git push origin main')
   exec('sudo env -i beep -f 4000 -r 3 -d 60 -l 80')
-}, 10000)
+}, 60000)
